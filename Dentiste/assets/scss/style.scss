@@ -1,0 +1,117 @@
+@font-face {
+    font-family: poppins;
+    src: url("../font/Poppins-ExtraLight.ttf");
+}
+:root{
+    --background : rgba(35, 205, 208, 0.357) ;
+    --white : white ;
+}
+body{
+    font-family: poppins;
+    background: var(--background);
+}
+.contain{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    .about_me{
+        margin-top: 5px;
+        background: var(--white);
+        border-radius: 10px;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        .about{
+            display: flex;
+            justify-content: space-around;
+            div{
+                display: flex;
+                flex-direction: column;
+            }
+            .priorisation{
+                display: flex;
+                flex-direction: column;
+            }
+            span{
+                padding: 5px;
+                font-size: 15px;
+                font-weight: bold;
+            }
+            .priorisation{
+                display: flex;
+                margin-top: 5px;
+                flex-direction: column;
+                label{
+                    font-size: 10px;
+                    color: purple;
+                    font-weight: bold;
+                }
+                select{
+                    margin-top: 5px;
+                    border: none;
+                    background: var(--background);
+                    padding: 8px;
+                    font-family: poppins;
+                    color: rgb(0, 0, 0);
+                    border-radius: 5px;
+                    font-weight: bold;
+                    outline: none;
+                }
+            }
+        }
+        .teeth{
+            width: 100%;
+            label{
+                font-size: 13px;
+                font-weight: bold;
+            }
+            table{
+                width: 100%;
+                text-align: center;
+                th,td{
+                    padding: 8px;
+                }
+                .traitement{
+                    background: rgba(192, 120, 13, 0.548);
+                    border-radius: 30px;
+                }
+                .broyer{
+                    background: rgba(255, 56, 56, 0.588);
+                    border-radius: 30px;
+                }
+                .nettoyage{
+                    background: rgba(249, 249, 85, 0.745);
+                    border-radius: 30px;
+                }
+                .null{
+                    border-radius: 30px;
+                    background: rgba(76, 76, 76, 0.266);
+                }
+                .ok{
+                    border-radius: 30px;
+                    background: rgba(102, 246, 30, 0.595);
+                }
+            }
+            .reste{
+                color: rgb(1, 1, 1) ;
+                font-size: 13px;
+                font-weight: bold;
+            }
+            .valider{
+                display: flex;
+                justify-content: flex-end;
+                input[type="submit"]{
+                    width: 130px;
+                    padding: 8px;
+                    font-family: poppins;
+                    background: rgba(0, 0, 255, 0.546);
+                    border: none;
+                    color: white;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+
+}

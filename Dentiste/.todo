@@ -1,0 +1,74 @@
+Reparation dent :
+    32 dents :  
+        -> 16 haut 
+        -> 16 bas
+QUOI :
+    le but :
+        ra  misy miteny oe anamboatra nify de miteny izy oe le 
+            choix beaute , choix sanitaire :
+        choix beaute : 
+            -> les cote beaute no atao zany
+        choix sanitaire : 
+            -> les soins sanitaire no atao zany
+    Nb: 
+        Prix ana traitement sy remplacement tsy mitovy 
+COMMENT :
+    --> asiana marque ny chaque dent :
+        1 haut et Bas 
+        2 haut et Bas
+        3 haut et Bas
+        4 haut et Bas
+        5 haut et Bas
+        6 haut et Bas
+        7 haut et Bas
+        8 haut et Bas
+        9 haut et Bas
+        10 haut et Bas
+        11 haut et Bas
+        12 haut et Bas
+        13 haut et Bas
+        14 haut et Bas
+        15 haut et Bas
+        16 haut et Bas
+    --> de mettre pour chaque dent des prix :
+        --> traitement :
+            1 haut et Bas (prix)
+            2 haut et Bas
+            3 haut et Bas
+            4 haut et Bas
+            5 haut et Bas
+            6 haut et Bas
+            7 haut et Bas
+            8 haut et Bas
+            9 haut et Bas
+            10 haut et Bas
+            11 haut et Bas
+            12 haut et Bas
+            13 haut et Bas
+            14 haut et Bas
+            15 haut et Bas
+            16 haut et Bas
+        --> remplacement : (prix)
+            1 haut et Bas 
+            2 haut et Bas
+            3 haut et Bas
+            4 haut et Bas
+            5 haut et Bas
+            6 haut et Bas
+            7 haut et Bas
+            8 haut et Bas
+            9 haut et Bas
+            10 haut et Bas
+            11 haut et Bas
+            12 haut et Bas
+            13 haut et Bas
+            14 haut et Bas
+            15 haut et Bas
+            16 haut et Bas
+        -->  pour la priorisation  :
+                10 , 20 , 30 , 40 , 50 , 60 , 70 , 80 , 90 , 100 , 110 , 120 , 130 , 140 ,150 , 160 
+            --> plus ambony ny coefficients de ambony priorisation sanitaire 
+            --> ambany ny coefficients de ambany priorisation ny beaute
+        --> de ny donnee ilaina d patient miaraka @le nify :
+            nify : 0 (banga) , 5 (traitement) , 10 (ok)
+        oul anakiray mi presente nifiny avec 32     

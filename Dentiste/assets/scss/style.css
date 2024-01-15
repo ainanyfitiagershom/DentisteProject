@@ -1,0 +1,116 @@
+@font-face {
+  font-family: poppins;
+  src: url("../font/Poppins-ExtraLight.ttf");
+}
+:root {
+  --background: rgba(255, 255, 255, 0.357) ;
+  --white: white ;
+}
+
+body {
+  
+  background: var(--background);
+}
+
+.contain {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.contain .about_me {
+  margin-top: 5px;
+  background: var(--white);
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.contain .about_me .about {
+  display: flex;
+  justify-content: space-around;
+}
+.contain .about_me .about div {
+  display: flex;
+  flex-direction: column;
+}
+.contain .about_me .about .priorisation {
+  display: flex;
+  flex-direction: column;
+}
+.contain .about_me .about span {
+  padding: 5px;
+  font-size: 15px;
+  font-weight: bold;
+}
+.contain .about_me .about .priorisation {
+  display: flex;
+  margin-top: 5px;
+  flex-direction: column;
+}
+.contain .about_me .about .priorisation label {
+  font-size: 10px;
+  color: rgb(16, 14, 16);
+  font-weight: bold;
+}
+.contain .about_me .about .priorisation select {
+  margin-top: 5px;
+  border: none;
+  background: var(--background);
+  padding: 8px;
+  color: rgb(0, 0, 0);
+  border-radius: 5px;
+  font-weight: bold;
+  outline: none;
+}
+.contain .about_me .teeth {
+  width: 100%;
+}
+.contain .about_me .teeth label {
+  font-size: 13px;
+  font-weight: bold;
+}
+.contain .about_me .teeth table {
+  width: 100%;
+  text-align: center;
+}
+.contain .about_me .teeth table th, .contain .about_me .teeth table td {
+  padding: 8px;
+}
+.contain .about_me .teeth table .traitement {
+  background: white;
+  border-radius: 30px;
+}
+.contain .about_me .teeth table .broyer {
+  background: white;
+  border-radius: 30px;
+}
+.contain .about_me .teeth table .nettoyage {
+  background:white;
+  border-radius: 30px;
+}
+.contain .about_me .teeth table .null {
+  border-radius: 30px;
+  background: rgba(80, 13, 13, 0.266);
+}
+.contain .about_me .teeth table .ok {
+  border-radius: 30px;
+  background: rgba(10, 92, 10, 0.595);
+}
+.contain .about_me .teeth .reste {
+  color:rgb(12, 127, 58);
+  font-size: 13px;
+  font-weight: bold;
+}
+.contain .about_me .teeth .valider {
+  display: flex;
+  justify-content: flex-end;
+}
+.contain .about_me .teeth .valider input[type=submit] {
+  width: 130px;
+  padding: 8px;
+  background: rgba(0, 0, 255, 0.546);
+  border: none;
+  color: white;
+  font-weight: bold;
+}/*# sourceMappingURL=style.css.map */
